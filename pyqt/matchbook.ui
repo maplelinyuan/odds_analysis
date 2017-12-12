@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>select league</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>belgium</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>denmark</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>england</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>france</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>germany</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>italy</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>netherlands</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>portugal</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>russia</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>scotland</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>spain</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>turkey</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>571</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>开赛时间</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>主队名</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>盘口</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>客队名</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>主队净支持</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>20</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>切换中/英</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
